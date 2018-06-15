@@ -1,7 +1,7 @@
 package main
 
 /*
-#cgo linux CFLAGS: -fplugin=./exp.so
+#cgo linux CFLAGS: -fplugin=exp.so
 void rce() {
   printf("Code Execution during build");
 }
